@@ -1577,6 +1577,9 @@
       "Warehouse.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
+        },
         "compile": {
           "bin/placeholder/Warehouse.Domain.dll": {}
         },
@@ -4216,6 +4219,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
@@ -4226,23 +4230,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\askim\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Warehouse.Persistance\\Warehouse.Persistance.csproj",
+      "projectUniqueName": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Warehouse.Persistance\\Warehouse.Persistance.csproj",
       "projectName": "Warehouse.Persistance",
-      "projectPath": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Warehouse.Persistance\\Warehouse.Persistance.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Warehouse.Persistance\\obj\\",
+      "projectPath": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Warehouse.Persistance\\Warehouse.Persistance.csproj",
+      "packagesPath": "C:\\Users\\askim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Warehouse.Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\askim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4258,11 +4262,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj"
+            "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj": {
+              "projectPath": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj"
+            "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj": {
+              "projectPath": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj"
             }
           }
         }
@@ -4271,12 +4275,21 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -4318,7 +4331,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj": {}
+    "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj": {
+    "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj",
+        "projectUniqueName": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj",
         "projectName": "Warehouse.Application",
-        "projectPath": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\obj\\",
+        "projectPath": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\Warehouse.Application.csproj",
+        "packagesPath": "C:\\Users\\askim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\askim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj"
+              "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj": {
+                "projectPath": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj"
               }
             }
           }
@@ -43,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -82,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj": {
+    "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj",
         "projectName": "Warehouse.Domain",
-        "projectPath": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\obj\\",
+        "projectPath": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\Warehouse.Domain.csproj",
+        "packagesPath": "C:\\Users\\askim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\askim\\OneDrive\\Masaüstü\\DEV\\WarehouseSystem\\Core\\Warehouse.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\askim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,11 +126,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -142,7 +158,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

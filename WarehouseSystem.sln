@@ -13,10 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Infrastructure", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Persistance", "Warehouse.Persistance\Warehouse.Persistance.csproj", "{1E8591A9-CC93-4B2D-B5EE-8B46FCBFA100}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Api", "Warehouse.Api\Warehouse.Api.csproj", "{2EEB76DD-FED3-46D4-8AF3-3E048E545177}"
-	ProjectSection(ProjectDependencies) = postProject
-		{1E8591A9-CC93-4B2D-B5EE-8B46FCBFA100} = {1E8591A9-CC93-4B2D-B5EE-8B46FCBFA100}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.WebAPI", "Warehouse.API\Warehouse.WebAPI.csproj", "{FB40975F-890E-4A7B-917B-0649444867CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,10 +37,10 @@ Global
 		{1E8591A9-CC93-4B2D-B5EE-8B46FCBFA100}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E8591A9-CC93-4B2D-B5EE-8B46FCBFA100}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E8591A9-CC93-4B2D-B5EE-8B46FCBFA100}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2EEB76DD-FED3-46D4-8AF3-3E048E545177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2EEB76DD-FED3-46D4-8AF3-3E048E545177}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2EEB76DD-FED3-46D4-8AF3-3E048E545177}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2EEB76DD-FED3-46D4-8AF3-3E048E545177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB40975F-890E-4A7B-917B-0649444867CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB40975F-890E-4A7B-917B-0649444867CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB40975F-890E-4A7B-917B-0649444867CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB40975F-890E-4A7B-917B-0649444867CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
